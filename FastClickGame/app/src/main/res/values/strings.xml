@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FastClickGame</string>
+    <string name="TimeLeft">Time left: 20</string>
+    <string name="Clicks">Total clicks: 0</string>
+    <string name="Click">Click</string>
+    <string name="Start">Start</string>
+</resources>

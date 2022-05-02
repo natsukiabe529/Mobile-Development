@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Roulette Wheel</string>
+    <string name="cash">Cash: </string>
+    <string name="placeBets">Place your bets:</string>
+    <string name="red">Red:</string>
+    <string name="firstDozen">1 - 12:</string>
+    <string name="black">Black:</string>
+    <string name="secondDozen">13 - 24:</string>
+    <string name="odd">Odd:</string>
+    <string name="thirdDozen">25 - 36:</string>
+    <string name="even">Even:</string>
+    <string name="oneNumber">One #:</string>
+    <string name="amount">Amount:</string>
+    <string name="spin">SPIN!</string>
+</resources>

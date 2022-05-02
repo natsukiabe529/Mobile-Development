@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PeopleListChallenger</string>
+    <string name="addOne">Add One</string>
+    <string name="name">Name:</string>
+    <string name="takePhotot">Take Photo</string>
+    <string name="choosePhoto">Choose Photo</string>
+    <string name="address">Address:</string>
+    <string name="phone">Phone:</string>
+    <string name="email">Email:</string>
+    <string name="url">URL:</string>
+    <string name="call">Call</string>
+    <string name="text">Text</string>
+    <string name="map">Map</string>
+    <string name="web">Web</string>
+    <string name="saveChanges">Save Changes</string>
+    <string name="returnToList">Return To List</string>
+</resources>

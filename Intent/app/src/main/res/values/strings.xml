@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="page1">Page 1</string>
+    <string name="toPage2">To Page 2</string>
+    <string name="page2">Page 2</string>
+    <string name="goBack">Go back to page 1</string>
+</resources>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_cash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:text="@string/cash"
+        app:layout_constraintStart_toEndOf="@+id/iv_roulette"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_placeBets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/placeBets"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_roulette" />
+
+    <TextView
+        android:id="@+id/tv_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/red"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_placeBets" />
+
+    <EditText
+        android:id="@+id/et_redBets"
+        android:layout_width="82dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_red"
+        app:layout_constraintTop_toBottomOf="@+id/tv_placeBets" />
+
+    <TextView
+        android:id="@+id/tv_firstDozen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/firstDozen"
+        app:layout_constraintStart_toEndOf="@+id/et_redBets"
+        app:layout_constraintTop_toBottomOf="@+id/tv_placeBets" />
+
+    <EditText
+        android:id="@+id/et_firstDozen"
+        android:layout_width="82dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toEndOf="@+id/tv_firstDozen"
+        app:layout_constraintTop_toBottomOf="@+id/tv_placeBets" />
+
+    <TextView
+        android:id="@+id/tv_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_red" />
+
+    <EditText
+        android:id="@+id/et_blackBets"
+        android:layout_width="82dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_black"
+        app:layout_constraintTop_toBottomOf="@+id/et_redBets" />
+
+    <TextView
+        android:id="@+id/tv_secondDozen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/secondDozen"
+        app:layout_constraintStart_toEndOf="@+id/et_blackBets"
+        app:layout_constraintTop_toBottomOf="@+id/tv_firstDozen" />
+
+    <EditText
+        android:id="@+id/et_secondDozen"
+        android:layout_width="82dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="68dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/tv_secondDozen"
+        app:layout_constraintTop_toBottomOf="@+id/et_firstDozen" />
+
+    <TextView
+        android:id="@+id/tv_odd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/odd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_black" />
+
+    <EditText
+        android:id="@+id/et_odd"
+        android:layout_width="82dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_odd"
+        app:layout_constraintTop_toBottomOf="@+id/et_blackBets" />
+
+    <TextView
+        android:id="@+id/tv_thirdDozen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/thirdDozen"
+        app:layout_constraintStart_toEndOf="@+id/et_odd"
+        app:layout_constraintTop_toBottomOf="@+id/tv_secondDozen" />
+
+    <EditText
+        android:id="@+id/et_thirdDozen"
+        android:layout_width="82dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toEndOf="@+id/tv_thirdDozen"
+        app:layout_constraintTop_toBottomOf="@+id/et_secondDozen" />
+
+    <TextView
+        android:id="@+id/tv_even"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/even"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_odd" />
+
+    <EditText
+        android:id="@+id/et_even"
+        android:layout_width="82dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_even"
+        app:layout_constraintTop_toBottomOf="@+id/et_odd" />
+
+    <TextView
+        android:id="@+id/tv_oneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/oneNumber"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_even" />
+
+    <EditText
+        android:id="@+id/et_oneNumber"
+        android:layout_width="82dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_oneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/et_even" />
+
+    <TextView
+        android:id="@+id/tv_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/amount"
+        app:layout_constraintStart_toEndOf="@+id/et_oneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/tv_thirdDozen" />
+
+    <EditText
+        android:id="@+id/et_amount"
+        android:layout_width="82dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toEndOf="@+id/tv_amount"
+        app:layout_constraintTop_toBottomOf="@+id/et_thirdDozen" />
+
+    <Button
+        android:id="@+id/b_wheel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/spin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_amount" />
+
+    <EditText
+        android:id="@+id/et_cashAmount"
+        android:layout_width="70dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="124dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_cash"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_roulette"
+        android:layout_width="246dp"
+        android:layout_height="269dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/wheel"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/iv_needle"
+        android:layout_width="174dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_roulette"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="@+id/iv_roulette"
+        app:layout_constraintTop_toTopOf="@+id/iv_roulette"
+        app:srcCompat="@drawable/editeneedle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
